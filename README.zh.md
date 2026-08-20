@@ -46,6 +46,10 @@ pnpm run verify:package
 pnpm pack
 ```
 
+兼容包只针对 DSH `0.1.0-rc.8`、Cordis `4.0.1`、Node.js
+`^22.19.0 || >=24.0.0` 和 pnpm `11.7.0` 验证。它只是迁移辅助包，不代表建议
+重新安装已经退役的功能。
+
 ## 许可证
 
 MIT

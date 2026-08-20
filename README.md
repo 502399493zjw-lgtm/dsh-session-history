@@ -46,6 +46,10 @@ pnpm run verify:package
 pnpm pack
 ```
 
+The compatibility package is validated only against DSH `0.1.0-rc.8`, Cordis
+`4.0.1`, Node.js `^22.19.0 || >=24.0.0`, and pnpm `11.7.0`. It remains a
+migration aid, not a recommendation to install the retired behavior.
+
 ## License
 
 MIT
