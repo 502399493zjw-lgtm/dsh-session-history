@@ -1,7 +1,7 @@
 {
   "name": "@zhongjingwei/dsh-session-history",
-  "version": "0.1.0-rc.5",
-  "description": "Compact session history projection with browser pagination continuity",
+  "version": "0.1.0-rc.8",
+  "description": "Safe rc.8 compatibility package for history behavior now native to stock DSH",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/502399493zjw-lgtm/dsh-session-history.git"
@@ -50,10 +50,8 @@
     }
   },
   "peerDependencies": {
-    "@deepseek-ai/cordis": "0.1.0-rc.5",
-    "@deepseek-ai/dsh-client-runtime": "0.1.0-rc.5",
-    "@deepseek-ai/dsh-host-apiproxy": "0.1.0-rc.5",
-    "@deepseek-ai/dsh-session": "0.1.0-rc.5"
+    "@deepseek-ai/cordis": "^4.0.1",
+    "@deepseek-ai/dsh-client-runtime": "0.1.0-rc.8"
   },
   "devDependencies": {
     "typescript": "^5.8.3",

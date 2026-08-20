@@ -4,8 +4,6 @@ const PACKAGE_ID = '@zhongjingwei/dsh-session-history'
 const PLATFORM_MODULES = [
   '@deepseek-ai/cordis',
   '@deepseek-ai/dsh-client-runtime/client',
-  '@deepseek-ai/dsh-host-apiproxy',
-  '@deepseek-ai/dsh-session',
 ] as const
 
 function isPlatformModule(id: string): boolean {
